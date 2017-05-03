@@ -1,0 +1,78 @@
+/* Here goes your CSS */
+body {
+  background: #DBDBDB;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #6B8184;
+  font-family: 'Montserrat';
+  font-style: lighter;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1 {
+  color: #3F7BBF;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+p {
+  font-family: 'Open-sans';
+  font-size: 16px;
+}
+
+a {
+  color: #9B9B9B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3F7BBF;
+}
+
+a:visited {
+  color: #9B9B9B;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.card-white {
+  background: white;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px lightgrey;
+  border: 1px solid lightgrey;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.btn-red {
+  background: #FF3232;
+  color: #DBDBDB;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
