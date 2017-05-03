@@ -2,6 +2,9 @@
 body {
   background: #DBDBDB;
   text-align: center;
+  font-family: 'Open Sans';
+  font-style: 300;
+  font-size: 14px;
 }
 
 h1, h2, h3 {
@@ -22,11 +25,6 @@ h3 {
   line-height: 1.4;
 }
 
-p {
-  font-family: 'Open-sans';
-  font-size: 16px;
-}
-
 a {
   color: #9B9B9B;
   text-decoration: none;
@@ -38,6 +36,26 @@ a:hover {
 
 a:visited {
   color: #9B9B9B;
+}
+
+li a .fa{
+  font-size: 26px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+img {
+  max-width: 100%;
+}
+
+td:first-child {
+  width: 30%;
+  padding: 20px;
+}
+
+td:last-child {
+  width: 70%;
+  padding: 20px;
 }
 
 .container {
@@ -72,7 +90,13 @@ a:visited {
 
 .btn-red {
   background: #FF3232;
-  color: #DBDBDB;
+  color: white;
   padding: 10px 15px;
   border-radius: 4px;
+}
+.btn-red:hover {
+  color: white;
+}
+.btn-red:visited {
+  color: white;
 }
